@@ -56,7 +56,7 @@ sessionStorage.removeItem("SelectedItem");
 
 </script>
     @if(count($items) === 0)
-        <p>Šioje kategorijoje dar nėra produktų.</p>
+        <p>Šioje kategorijoje dar nėra paslaugų.</p>
     @else
     @foreach($items as $item)
         <div>
